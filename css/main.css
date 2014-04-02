@@ -86,9 +86,9 @@ a:hover {
     color: #6f92a7;
 }
 .activated {
-    background-color: #1a336d;
+    background-color: #0e1d45;
     border-radius: 6px 6px 6px 6px;
-    padding: 5px 2px 2px 2px;
+    padding: 5px 2px 4px 2px;
    
 
 }
@@ -131,7 +131,7 @@ header#site_head {
     height: 70px;
     width: 100%;
     display: block;
-}
+} 
 
     .header_cont {
         width: 100%;
@@ -327,6 +327,22 @@ header#site_head {
                 font-size: 18px;
             }
 
+            p
+            {
+                margin: 4px;
+            }
+
+       
+            .slicknav_menutxt
+            {
+                display:none;
+            }
+          
+          .hidesocial
+          {
+            display:none;
+          }
+
 
 
 
@@ -346,62 +362,48 @@ header#site_head {
 
 
 @media screen and (max-width: 40em) {
-    .js #menu {
+
+    header#site_head
+    {
         display:none;
+    }
+    nav.head_nav
+    {
+        display:none;
+    }
+
+   
+    .js #menu {
+        display:block;
     }
     
     .js .slicknav_menu {
         display:block;
     }
 
+    
+
     .hidetext
     {
         display: none;
     }
+
+    .slidern
+    {
+        padding-left:5px;
+    }
+
+    .activated
+    {
+        padding:2px 2px 2px 2px;
+    }
+
+
+
+    
     
 
-            nav.social_nav ul li.rss a {
-                
-                
-                margin: 0;
-                padding-left: 20px;
-                background: url(../img/facebook1.png) left no-repeat;
-             
-                
-        }
-
-            nav.social_nav ul li.twitter a {
-                
-                
-                margin-left: -4px;
-                padding-left: 20px;
-                background: url(../img/twitter1.png) left no-repeat;
-                
-                
-            }
             
-            
-
-            nav.social_nav ul li.instagram a {
-          
-                margin-left: -3px;
-                padding-left: 20px;
-                background: url(../img/insta.png) left no-repeat;
-                
-            }
-
-            nav.social_nav ul li.rss a:hover, nav.social_nav ul li.twitter a:hover, nav.social_nav ul li.instagram a:hover      {
-                color: #0b6feb;
-                -moz-border-radius: 0;
-                -khtml-border-radius: 0;
-                -webkit-border-radius: 0;
-                border-radius: 0;
-                -moz-box-shadow: none;
-                -khtml-box-shadow: none;
-                -webkit-box-shadow: none;
-                box-shadow: none;
-            }
-
 
 }
 
