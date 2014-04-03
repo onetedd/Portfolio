@@ -150,7 +150,7 @@ header#site_head {
             
             background: url(../img/logo.png) no-repeat;
             position:absolute;
-            left: 50%;
+            left:52%;
             margin-left: -125px;
             width: 160px;
             height: 43px;
@@ -450,7 +450,7 @@ header#site_head {
             
             background: url(../img/logo.png) no-repeat;
             position:relative;
-            left: 50%;
+            left:60%;
             top:-55px;
             margin-left: -125px;
             width: 160px;
@@ -459,7 +459,7 @@ header#site_head {
         }
 
          .wrappermobile h1 a:hover {
-            background-position: 0px -42.5px;
+            background-position: 0px -43px;
         }
    
 
@@ -597,6 +597,17 @@ header#site_head {
     
 
             
+
+}
+
+@media screen and (max-width: 23em){
+
+.wrappermobile h1 a
+{
+    display:none;
+}
+
+
 
 }
 
