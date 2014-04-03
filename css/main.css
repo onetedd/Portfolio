@@ -339,6 +339,12 @@ header#site_head {
             {
                 display:none;
             }
+            .hidetextmobile
+            {
+
+                display:none;
+            }
+
 
       
          
@@ -366,14 +372,11 @@ header#site_head {
 
 @media screen and (max-width: 50em) {
 
-    header#site_head
+   .wrapperdesktop
     {
         display:none;
     }
-    nav.head_nav
-    {
-        display:none;
-    }
+   
 
    
     .js #menu {
@@ -498,6 +501,84 @@ header#site_head {
 .slicknav_nav .slicknav_txtnode {
      margin-left:15px;   
 }
+
+nav.social_navmobile {
+            float: left;
+            margin-top: -45px;
+        }
+
+
+
+        nav.social_navmobile ul li {
+            display: inline;
+            margin: 0px 2px;
+        }   
+
+          nav.social_navmobile ul li a {
+                color: white;
+                font-size: 13px;
+                font-weight: normal;
+
+                
+                padding: 10px 10px;
+            }
+
+          
+
+
+  nav.social_navmobile ul li.rss, nav.social_navmobile ul li.twitter, nav.social_navmobile ul li.instagram      {
+                position: relative;
+                left: 18px;
+                margin: 0px;
+                }
+
+            nav.social_navmobile ul li.rss a {
+               
+                
+                margin-left: 10px;
+
+
+              
+                background: url(../img/facebook1.png) right no-repeat;
+                
+                
+        }
+
+            nav.social_navmobile ul li.twitter a {
+                
+                
+                margin-left: 8px;
+                padding-left: 20px;
+                background: url(../img/twitter1.png) left no-repeat;
+                
+                
+            }
+            
+            
+
+            nav.social_navmobile ul li.instagram a {
+                
+                margin-left: -5px;
+                padding-left: 30px;
+                background: url(../img/insta.png) left no-repeat;
+               
+            }
+
+              .wrappermobile h1 a {
+            
+            background: url(../img/logo1.png) no-repeat;
+            position:relative;
+            left: 50%;
+            top:-57px;
+            margin-left: -125px;
+            width: 250px;
+            height: 42px;
+            display: block
+        }
+
+         .wrappermobile h1 a:hover {
+            background-position: 0px -42.5px;
+        }
 
 
     
