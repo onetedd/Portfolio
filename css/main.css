@@ -150,7 +150,8 @@ header#site_head {
             
             background: url(../img/logo.png) no-repeat;
             position:absolute;
-            left:52%;
+            left:53%;
+            top:13px;
             margin-left: -125px;
             width: 160px;
             height: 43px;
@@ -186,11 +187,7 @@ header#site_head {
                 padding: 5px 8px;
             }
 
-            nav.head_nav ul li.home a {
-                
-            
-            }
-
+        
             nav.head_nav ul li a:hover {
                 
                 
@@ -385,7 +382,10 @@ header#site_head {
 
     nav.social_navmobile {
             float: left;
-            margin-top: -45px;
+
+            position:absolute;
+            top:25px;
+                   
             
         }
 
@@ -428,7 +428,7 @@ header#site_head {
 
             nav.social_navmobile ul li.twitter a {
                 
-                
+            
                 margin-left: 8px;
                 padding-left: 20px;
                 background: url(../img/twitter1.png) left no-repeat;
@@ -449,12 +449,12 @@ header#site_head {
               .wrappermobile h1 a {
             
             background: url(../img/logo.png) no-repeat;
-            position:relative;
-            left:60%;
-            top:-55px;
+            position:absolute;
+            left:53%;
+            top:13px;
             margin-left: -125px;
             width: 160px;
-            height: 42px;
+            height: 43px;
             display: block
         }
 
