@@ -8,14 +8,17 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+      <link rel="stylesheet" href="css/slicknav.css">
         <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
- <link rel="stylesheet" href="css/slicknav.css">
+      
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="jquery.bxslider.css" rel="stylesheet" />
     </head>
     <body>
 
-        <div class="wrappermobile">
+   <div class="wrappermobile">
        
     
   
@@ -57,8 +60,8 @@
         <nav class="head_nav">
         <ul id="menu">
             <li><a href="index.html">Hem</a></li>
-            <li class="activated"><a href="ommig.html">Om mig</a></li>
-            <li><a href="arbeten.html">Mina Arbeten</a></li>
+            <li><a href="ommig.html">Om mig</a></li>
+            <li class="activated"><a href="arbeten.html">Mina Arbeten</a></li>
             <li><a href="cv.html">CV</a></li>
         </ul>
         </nav>
@@ -70,8 +73,8 @@
     </header>
 
 
-  
-
+          
+    
 
   
 
@@ -81,34 +84,48 @@
     
     <div id="main_content"><!--useful to create the 960px limit-->
     
-     <h2 class="ommig"> Om mig </h2>   
-    <p> Jag är en kille på 20 år som är ursprungligen från norrland (Sundsvall). Men flyttat ner till Stockholm för att ta en gymnasieingenjörsexamen inom mjukvarudesign med inriktning webbutveckling. Jag är just nu på den sista delen av utbildningen som består av att praktisera / jobba med front-end utveckling.  Detta är då tänkt att de ska leda till ett jobb inom webb-branschen. <br><br>
+     <h2> Projektarbete i 3:an på gymnasiet</h2>   
+    <p> I trean på gymnasiet bestämde jag mig för att försöka ge mig in i webbranschen för UF företag. Tanken var att det skulle finnas tre färdiga designer de fick välja mellan och sedan beställa genom ett fomrulär där de skulle skriva vad som skulle finnas på hemsidan. Eftersom UF företag har dåligt med pengar i starten och kanske skulle behövt en hemsida redan då, så hade jag en plan på att använda mig av efterbetalning. Hemsidorna skulle vara så pass simpla att de skulle bara kosta runt 300 kr/st, men då skulle de stå för domänen själva.   </p>
 
-Som person är jag utåtriktad och har väldigt höga ambitioner. Jag har lätt att få kontakt med människor och är en lagspelare då jag är bra på att lyssna på allas åsikter. Jag tycker om att planera och är ofta den som tar initiativet i gruppen för att leda det vidare. Sedan ser jag gärna mig själv som en person som vill ha en plan för allting, så att allt är strukturerat. <br><br>
+        <!-- Bildwidth: 750px  Bildheight: 583px -->
+      <div class="slidern">
+    <ul class="bxslider">
+      <li><img src="img/autowebb1.jpg" /></li>
+      <li><img src="img/autowebb.jpg" /></li>
+      <li><img src="img/autowebb2.jpg" /></li>
+      <li><img src="img/autowebb3.jpg"/></li>
+      
+    </ul>
+    </div>
 
-
-
-<b>Mina intressen</b><br>
-• Umgås med vänner<br>
-• Träna<br>
-• Musik<br>
-• Datorer<br>
-• Spel<br>
-• Serier / Filmer<br>
-• Resa<br>
-• Sol & Bad </p>
-    
-    
-    
        
+
     </div><!--/main_container-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script type="text/javascript" src="jquery.bxslider.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                responsive: true,
+                mode: 'fade',
+                captions: true,
+                touchEnabled: true,
+                
+
+            });
+        });
+        </script>
+
+        <script src="js/main.js"></script>
+      
     <script src="jquery.slicknav.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $('#menu').slicknav();
         });
 </script>
-        
+      
     </body>
 </html>

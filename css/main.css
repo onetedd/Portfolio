@@ -106,6 +106,7 @@ h1, h2, h3 {
 h2 {
     font-size: 22px;
     line-height: 28px;
+    margin-left:10px;
 }
 
 .float {
@@ -150,7 +151,7 @@ header#site_head {
             
             background: url(../img/logo.png) no-repeat;
             position:absolute;
-            left:53%;
+            left:54%;
             top:13px;
             margin-left: -125px;
             width: 160px;
@@ -159,7 +160,7 @@ header#site_head {
         }
 
         .header_cont h1 a:hover {
-            background-position: 0px -43px;
+            background-position: 0px -43.4px;
         }
 
         nav.social_nav {
@@ -256,7 +257,7 @@ header#site_head {
             {
 
                 max-width: 750px;
-                margin: 99px auto;
+                margin: 80px auto;
             }
 
             #main_content
@@ -328,6 +329,8 @@ header#site_head {
 
             p
             {
+                font-family: Quicksand-Bold;
+                font-size:15px;
                 margin: 10px;
             }
 
@@ -346,6 +349,11 @@ header#site_head {
                 position:relative;
 
 
+            }
+            .projektbild
+            {
+                background-image:url('img/autowebb.jpg');
+                
             }
 
 
@@ -459,7 +467,7 @@ header#site_head {
         }
 
          .wrappermobile h1 a:hover {
-            background-position: 0px -43px;
+            background-position: 0px -43.4px;
         }
    
 
@@ -488,6 +496,13 @@ header#site_head {
     {
         padding:2px 2px 2px 2px;
     }
+
+     .projektbild img
+            {
+               height:100%;
+               width:100%;
+               
+            }
 
 
     
