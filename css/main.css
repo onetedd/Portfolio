@@ -257,7 +257,7 @@ header#site_head {
             {
 
                 max-width: 750px;
-                margin: 80px auto;
+                margin: 99px auto;
             }
 
             #main_content
@@ -354,6 +354,14 @@ header#site_head {
             {
                 background-image:url('img/autowebb.jpg');
                 
+            }
+
+            .notfinished
+            {
+                float:left;
+                margin-left:5px;
+
+
             }
 
 
